@@ -42,6 +42,7 @@ class Table extends Component {
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
+            <th>Post Details</th>
           </tr>
         </thead>
         <tbody>
@@ -51,6 +52,9 @@ class Table extends Component {
               <td>{user.name}</td>
               <td>{user.email}</td>
               <td>{user.phone}</td>
+              <td>
+                <button>Details</button>
+              </td>
             </tr>
           ))}
         </tbody>
